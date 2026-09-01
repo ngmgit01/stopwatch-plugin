@@ -1,0 +1,11 @@
+{
+  "name": "budibase-stopwatch",
+  "version": "1.0.0",
+  "description": "Stopwatch component with start/pause/stop and data persistence",
+  "main": "dist/index.js",
+  "svelte": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "svelte": "^3.0.0"
+  }
+}
