@@ -1,0 +1,40 @@
+{
+  "type": "component",
+  "metadata": {
+    "name": "Stopwatch",
+    "description": "Stopwatch with start/pause/stop and configurable data saving",
+    "icon": "Clock"
+  },
+  "schema": {
+    "fieldStart": {
+      "type": "field/number",
+      "title": "Field for Start Time",
+      "description": "Configurable field to store current time when started",
+      "required": true
+    },
+    "fieldStop": {
+      "type": "field/number",
+      "title": "Field for Stop Time",
+      "description": "Configurable field to store current time when stopped",
+      "required": true
+    },
+    "fieldTotal": {
+      "type": "field/number",
+      "title": "Field for Total Elapsed",
+      "description": "Configurable field to store total elapsed time",
+      "required": true
+    },
+    "tableId": {
+      "type": "string",
+      "title": "Table ID",
+      "description": "ID of the table to save data to",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "title": "Label",
+      "description": "Optional label above the timer",
+      "default": "Stopwatch"
+    }
+  }
+}
