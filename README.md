@@ -1,0 +1,2 @@
+# stopwatch-plugin
+Budibase plugin
